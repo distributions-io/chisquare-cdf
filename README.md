@@ -6,12 +6,12 @@ Cumulative Distribution Function
 
 The [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for a [Chi-squared](https://en.wikipedia.org/wiki/Chi-squared_distribution) random variable is
 
-<div class="equation" align="center" data-raw-text="" data-equation="eq:cdf">
-	<img src="" alt="Cumulative distribution function for a Chi-squared distribution.">
+<div class="equation" align="center" data-raw-text="F(x;\,k) = P\left(\frac{x}{2},\,\frac{k}{2}\right)" data-equation="eq:cdf">
+	<img src="https://cdn.rawgit.com/distributions-io/chisquare-cdf/bffead2778de4670e88d5f28b92dfbba8118af71/docs/img/eqn.svg" alt="Cumulative distribution function for a Chi-squared distribution.">
 	<br>
 </div>
 
-where `k` is the degrees of freedom.
+where `k` is the degrees of freedom and `P` is the lower regularized [incomplete gamma](https://github.com/compute-io/gammainc) function.
 
 ## Installation
 
