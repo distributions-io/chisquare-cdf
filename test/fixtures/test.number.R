@@ -2,7 +2,7 @@ options( digits = 16 )
 library( jsonlite )
 
 k = 1
-x = c( -5, -2.5, 0, 2.5, 5 )
+x = c( -2.5, 0, 2.5, 5, 10 )
 y = pchisq( x, k )
 
 cat( y, sep = ",\n" )

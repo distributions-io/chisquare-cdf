@@ -1,7 +1,7 @@
 options( digits = 16 )
 library( jsonlite )
 
-k = 1
+k = 3
 x = 0:24
 y = pchisq( x, k )
 
